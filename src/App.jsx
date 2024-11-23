@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
+import { useState } from "react";
 import LikeButton from "./assets/like-button.jpg";
 import Card from "./assets/components/Card";
 import Data from "./assets/movies.json"
-import { useState } from "react";
 
 function App() {
    const [likes, setLikes]= useState(0)
